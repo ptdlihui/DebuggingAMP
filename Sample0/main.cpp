@@ -32,7 +32,7 @@ int main()
     toGray.Process();
 
     cv::Mat cvGray;
-    cv::cvtColor(image, cvGray, CV_BGR2GRAY);
+    cv::cvtColor(image, cvGray, cv::COLOR_BGR2GRAY);
 
     return -1;
 }
